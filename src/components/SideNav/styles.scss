@@ -1,0 +1,33 @@
+#sidenav-wrapper {
+  bottom: 0px;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  width: 65px;
+  height: 100vh;
+  background: #297373;
+}
+
+#sidenav-logo-wrapper {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+#sidenav-links-wrapper {
+  display: block;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.nav-icon {
+  width: 100%;
+  margin-top: 50px;
+  color: #adadad;
+}
+
+.nav-icon:hover {
+  color: #f0e68c;
+  transition: all 0.5s ease-out;
+}
