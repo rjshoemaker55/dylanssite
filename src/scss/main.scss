@@ -1,0 +1,27 @@
+@import 'newscarousel';
+@import 'recentposts';
+@import 'shopdisplay';
+@import 'sidenav';
+@import 'config';
+@import 'floatingcontactbutton';
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: $color-3;
+}
+
+#main-container {
+  margin-left: 85px !important;
+  padding-top: 25px;
+  height: 100%;
+  padding-right: 105px;
+  padding-bottom: 20px;
+  overflow: auto;
+  position: absolute;
+  width: 100%;
+}

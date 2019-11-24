@@ -1,8 +1,14 @@
-import React from 'react';
-
-import './styles.scss';
+import React, { useState } from 'react';
 
 const SideNav = () => {
+  const [navVisible, setNavVisible] = useState('block');
+
+  const hideNav = () => {
+    console.log('clicked');
+    setNavVisible('none');
+    console.log(navVisible);
+  };
+
   return (
     <div id='sidenav-wrapper'>
       <div id='sidenav-logo-wrapper'>
@@ -21,6 +27,9 @@ const SideNav = () => {
         <a href='!#' className='nav-link'>
           <i className='fas fa-rss-square nav-icon'></i>
         </a>
+        <div id='hide-nav-button' onClick={hideNav}>
+          <i className='fas fa-arrow-circle-left'></i>
+        </div>
       </div>
     </div>
   );

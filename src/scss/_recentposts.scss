@@ -1,21 +1,22 @@
+@import 'config';
+
 #recent-posts-wrapper {
   height: 100%;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 #recent-posts-header {
   font-family: 'Lobster', cursive;
-  height: 20%;
   margin-bottom: 0px;
-  line-height: 1.4;
+  line-height: 0.75;
   font-weight: bold;
-  color: #e4fde1;
+  color: $color-4;
   font-size: 4rem;
   margin-left: 10px;
 }
 #recent-posts-body {
-  background: #e4fde1;
-  height: 80%;
+  background: $color-4;
+  height: 250px;
   margin-top: 0px;
   border-radius: 5px;
 }

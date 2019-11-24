@@ -1,0 +1,15 @@
+@import 'config';
+
+#floating-button-wrapper {
+  background: rgba($highlight, 0.5);
+  border-radius: 50%;
+  position: fixed;
+  right: 7px;
+  bottom: 7px;
+  color: darkslategrey;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 5px;
+  width: 74px;
+  border: 3.5px darkslategrey solid;
+}

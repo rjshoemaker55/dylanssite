@@ -1,19 +1,18 @@
 #shop-display-wrapper {
   width: 100%;
-  margin-left: 20px;
   margin-top: 20px;
 }
 
 #shop-display-header-text {
   font-family: 'Lobster', cursive;
   font-size: 4rem;
-  color: #e55934;
+  color: $color-1;
   line-height: 0.75;
 }
 
 #shop-display-body {
-  height: 400px;
-  background: #85a4a4;
+  height: 700px;
+  background: $color-1;
   width: 100%;
   border-radius: 5px;
 }

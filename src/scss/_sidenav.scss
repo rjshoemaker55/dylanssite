@@ -1,3 +1,5 @@
+@import 'config';
+
 #sidenav-wrapper {
   bottom: 0px;
   top: 0px;
@@ -5,7 +7,7 @@
   position: fixed;
   width: 65px;
   height: 100vh;
-  background: #297373;
+  background: $color-5;
 }
 
 #sidenav-logo-wrapper {
@@ -25,9 +27,24 @@
   width: 100%;
   margin-top: 50px;
   color: #adadad;
+  transition: all 0.25s ease-out;
 }
 
 .nav-icon:hover {
-  color: #f0e68c;
-  transition: all 0.5s ease-out;
+  color: $highlight;
+}
+
+#hide-nav-button {
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  font-size: 2rem;
+  align-items: center;
+  width: 100%;
+  transition: all 0.25s ease-out;
+}
+
+#hide-nav-button:hover {
+  color: $highlight;
+  cursor: pointer;
 }

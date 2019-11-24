@@ -1,7 +1,5 @@
 import React from 'react';
 
-import './styles.scss';
-
 const RecentPosts = () => {
   return (
     <div id='recent-posts-wrapper'>
