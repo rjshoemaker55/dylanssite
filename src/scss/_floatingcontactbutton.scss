@@ -1,7 +1,7 @@
 @import 'config';
 
 #floating-button-wrapper {
-  background: rgba($highlight, 0.5);
+  background: rgba($highlight, 0.55);
   border-radius: 50%;
   position: fixed;
   right: 7px;
@@ -10,6 +10,15 @@
   font-size: 2.5rem;
   text-align: center;
   padding: 5px;
-  width: 74px;
+  width: 78px;
   border: 3.5px darkslategrey solid;
+  transition: all 0.5s ease-out;
+}
+
+#floating-button-wrapper:hover {
+  background: rgba($color-5, 1);
+  color: white;
+  border-color: white;
+  cursor: pointer;
+  transform: rotate(360deg);
 }
