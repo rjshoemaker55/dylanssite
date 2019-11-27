@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+const jQuery = require('jquery');
 
 const SideNav = () => {
   const [navVisible, setNavVisible] = useState('block');
@@ -7,6 +8,15 @@ const SideNav = () => {
     console.log('clicked');
     setNavVisible('none');
     console.log(navVisible);
+  };
+
+  const animatedScroll = () => {
+    jQuery('#main-container').animate(
+      {
+        scrollTop: jQuery('#shop-display-wrapper').offset().top
+      },
+      600
+    );
   };
 
   return (
@@ -18,9 +28,9 @@ const SideNav = () => {
         <a href='!#' className='nav-link'>
           <i className='fas fa-home nav-icon'></i>
         </a>
-        <a href='!#' className='nav-link'>
+        <div onClick={animatedScroll} className='nav-link'>
           <i className='fas fa-shopping-bag nav-icon'></i>
-        </a>
+        </div>
         <a href='!#' className='nav-link'>
           <i className='fas fa-align-left nav-icon'></i>
         </a>
