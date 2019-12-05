@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/dylanssite/static/css/main.747e4c4b.chunk.css",
-    "main.js": "/dylanssite/static/js/main.679dad03.chunk.js",
-    "main.js.map": "/dylanssite/static/js/main.679dad03.chunk.js.map",
-    "runtime-main.js": "/dylanssite/static/js/runtime-main.d7ae103a.js",
-    "runtime-main.js.map": "/dylanssite/static/js/runtime-main.d7ae103a.js.map",
-    "static/js/2.736423bd.chunk.js": "/dylanssite/static/js/2.736423bd.chunk.js",
-    "static/js/2.736423bd.chunk.js.map": "/dylanssite/static/js/2.736423bd.chunk.js.map",
-    "index.html": "/dylanssite/index.html",
-    "precache-manifest.f88fa88316100c85721a6f89945534c8.js": "/dylanssite/precache-manifest.f88fa88316100c85721a6f89945534c8.js",
-    "service-worker.js": "/dylanssite/service-worker.js",
-    "static/css/main.747e4c4b.chunk.css.map": "/dylanssite/static/css/main.747e4c4b.chunk.css.map"
+    "main.css": "/survival-kits/static/css/main.747e4c4b.chunk.css",
+    "main.js": "/survival-kits/static/js/main.edbedc4d.chunk.js",
+    "main.js.map": "/survival-kits/static/js/main.edbedc4d.chunk.js.map",
+    "runtime-main.js": "/survival-kits/static/js/runtime-main.5a3ff0b4.js",
+    "runtime-main.js.map": "/survival-kits/static/js/runtime-main.5a3ff0b4.js.map",
+    "static/js/2.736423bd.chunk.js": "/survival-kits/static/js/2.736423bd.chunk.js",
+    "static/js/2.736423bd.chunk.js.map": "/survival-kits/static/js/2.736423bd.chunk.js.map",
+    "index.html": "/survival-kits/index.html",
+    "precache-manifest.dbf32bffa2ae88a35d1cc7acfe56e9d7.js": "/survival-kits/precache-manifest.dbf32bffa2ae88a35d1cc7acfe56e9d7.js",
+    "service-worker.js": "/survival-kits/service-worker.js",
+    "static/css/main.747e4c4b.chunk.css.map": "/survival-kits/static/css/main.747e4c4b.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.d7ae103a.js",
+    "static/js/runtime-main.5a3ff0b4.js",
     "static/js/2.736423bd.chunk.js",
     "static/css/main.747e4c4b.chunk.css",
-    "static/js/main.679dad03.chunk.js"
+    "static/js/main.edbedc4d.chunk.js"
   ]
 }
